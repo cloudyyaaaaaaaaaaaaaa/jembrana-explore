@@ -17,7 +17,7 @@
             location: 'Desa Medewi, Kecamatan Pekutatan, Kabupaten Jembrana',
             mapQuery: 'Pantai Medewi Jembrana Bali',
             description: 'Pantai pesisir Jembrana yang dikenal dengan karakter ombaknya dan menjadi salah satu destinasi surfing yang terkenal di Bali.',
-            image: '../assets/images/pantai-medewi.jpg',
+            image: 'assets/images/pantai-medewi.jpg',
             activities: ['Surfing', 'Menikmati pantai', 'Berfoto', 'Menikmati pemandangan laut']
         },
         {
@@ -27,7 +27,7 @@
             location: 'Desa Pengeragoan, Kecamatan Pekutatan, Kabupaten Jembrana',
             mapQuery: 'Pantai Yeh Leh Jembrana Bali',
             description: 'Pantai dengan karakter bebatuan dan pesona pesisir yang menjadi salah satu daya tarik wisata di bagian timur Kabupaten Jembrana.',
-            image: '../assets/images/pantai-yeh-leh.jpg',
+            image: 'assets/images/pantai-yeh-leh.jpg',
             activities: ['Berfoto', 'Menikmati pantai', 'Menikmati sunset', 'Menjelajahi area pesisir']
         },
         {
@@ -37,7 +37,7 @@
             location: 'Desa Manggissari, Kecamatan Pekutatan, Kabupaten Jembrana',
             mapQuery: 'Bunut Bolong Jembrana Bali',
             description: 'Landmark alam berupa pohon bunut besar dengan lubang alami yang menjadi salah satu ciri khas kawasan wisata pegunungan Jembrana.',
-            image: '../assets/images/bunut-bolong.jpg',
+            image: 'assets/images/bunut-bolong.jpg',
             activities: ['Melihat Bunut Bolong', 'Berfoto', 'Menikmati alam', 'Menjelajahi kawasan sekitar']
         },
         {
@@ -47,7 +47,7 @@
             location: 'Kabupaten Jembrana, Bali',
             mapQuery: 'Pura Rambut Siwi Jembrana Bali',
             description: 'Salah satu daya tarik wisata budaya dan spiritual Jembrana yang berada di kawasan pesisir.',
-            image: '../assets/images/pura-rambut-siwi.jpg',
+            image: 'assets/images/pura-rambut-siwi.jpg',
             activities: ['Mengenal budaya', 'Mengenal sejarah', 'Mengamati arsitektur', 'Menikmati pemandangan']
         },
         {
@@ -57,7 +57,7 @@
             location: 'Kabupaten Jembrana, Bali',
             mapQuery: 'Makepung Jembrana Bali',
             description: 'Tradisi balap kerbau khas Jembrana yang menjadi salah satu identitas budaya masyarakat Jembrana.',
-            image: '../assets/images/makepung.jpg',
+            image: 'assets/images/makepung.jpg',
             activities: ['Menyaksikan perlombaan', 'Mengenal tradisi', 'Fotografi', 'Mengenal kehidupan masyarakat']
         },
         {
@@ -67,7 +67,7 @@
             location: 'Gilimanuk, Kecamatan Melaya, Kabupaten Jembrana',
             mapQuery: 'Teluk Gilimanuk Jembrana Bali',
             description: 'Kawasan teluk di bagian barat Jembrana yang memiliki potensi wisata bahari dan menjadi bagian dari kawasan wisata Gilimanuk.',
-            image: '../assets/images/teluk-gilimanuk.jpg',
+            image: 'assets/images/teluk-gilimanuk.jpg',
             activities: ['Menikmati pemandangan teluk', 'Wisata bahari', 'Berfoto', 'Menjelajahi kawasan Gilimanuk']
         },
         {
@@ -77,7 +77,7 @@
             location: 'Desa Blimbingsari, Kabupaten Jembrana, Bali',
             mapQuery: 'Desa Wisata Blimbingsari Jembrana Bali',
             description: 'Desa wisata yang menawarkan pengalaman mengenal kehidupan masyarakat dan potensi lokal Jembrana.',
-            image: '../assets/images/desa-blimbingsari.jpg',
+            image: 'assets/images/desa-blimbingsari.jpg',
             activities: ['Mengenal kehidupan desa', 'Menjelajahi potensi lokal', 'Mengenal budaya masyarakat', 'Mengikuti aktivitas wisata']
         },
         {
@@ -87,7 +87,7 @@
             location: 'Desa Ekasari, Kabupaten Jembrana, Bali',
             mapQuery: 'Desa Wisata Ekasari Jembrana Bali',
             description: 'Desa wisata yang memperkenalkan potensi lokal dan pengalaman kehidupan masyarakat di kawasan Jembrana.',
-            image: '../assets/images/desa-ekasari.jpg',
+            image: 'assets/images/desa-ekasari.jpg',
             activities: ['Menjelajahi desa', 'Mengenal masyarakat', 'Menikmati alam', 'Mengenal potensi lokal']
         },
         {
@@ -97,7 +97,7 @@
             location: 'Kabupaten Jembrana, Bali',
             mapQuery: 'Bendungan Palasari Jembrana Bali',
             description: 'Kawasan bendungan yang menawarkan suasana alam dan lanskap perairan yang menjadi bagian dari potensi wisata Jembrana.',
-            image: '../assets/images/bendungan-palasari.jpg',
+            image: 'assets/images/bendungan-palasari.jpg',
             activities: ['Menikmati pemandangan', 'Berfoto', 'Menikmati suasana alam', 'Menjelajahi kawasan sekitar']
         },
         {
@@ -107,7 +107,7 @@
             location: 'Kabupaten Jembrana, Bali',
             mapQuery: 'Sentra Tenun Jembrana Bali',
             description: 'Potensi kerajinan tenun yang menjadi bagian dari budaya dan ekonomi kreatif masyarakat Jembrana.',
-            image: '../assets/images/tenun-jembrana.jpg',
+            image: 'assets/images/tenun-jembrana.jpg',
             activities: ['Mengenal kerajinan tenun', 'Melihat produk lokal', 'Mengenal proses kerajinan', 'Mendukung produk lokal']
         },
 
@@ -124,7 +124,7 @@
             location: 'Dusun Juwuk Manis, Desa Manggissari, Kecamatan Pekutatan, Kabupaten Jembrana',
             mapQuery: 'Air Terjun Juwukmanis Jembrana Bali',
             description: 'Air terjun kembar yang tersembunyi di kawasan perbukitan Pekutatan, dikelilingi pepohonan rimbun dengan kolam alami yang jernih di bawahnya.',
-            image: '../assets/images/air-terjun-juwukmanis.jpg',
+            image: 'assets/images/air-terjun-juwukmanis.jpg',
             activities: ['Trekking', 'Berenang di kolam alami', 'Berfoto', 'Menikmati suasana alam']
         },
         {
@@ -134,7 +134,7 @@
             location: 'Kelurahan Pendem, Kecamatan Jembrana, Kabupaten Jembrana',
             mapQuery: 'Puncak Mawar Jembrana Bali',
             description: 'Destinasi wisata di dataran tinggi perbukitan yang menawarkan gardu pandang dan pemandangan Jembrana hingga garis pantai dari ketinggian.',
-            image: '../assets/images/puncak-mawar.jpg',
+            image: 'assets/images/puncak-mawar.jpg',
             activities: ['Menikmati pemandangan dari ketinggian', 'Berfoto di gardu pandang', 'Trekking ringan', 'Menikmati suasana pegunungan']
         },
         {
@@ -144,7 +144,7 @@
             location: 'Dusun Mekar Sari, Desa Manistutu, Kecamatan Melaya, Kabupaten Jembrana',
             mapQuery: 'Bendungan Benel Jembrana Bali',
             description: 'Kawasan bendungan yang dikelilingi hutan dan perbukitan hijau, menjadi tempat rekreasi sekaligus sumber irigasi bagi masyarakat sekitar.',
-            image: '../assets/images/bendungan-benel.jpg',
+            image: 'assets/images/bendungan-benel.jpg',
             activities: ['Menikmati pemandangan bendungan', 'Bersantai di area sekitar', 'Berfoto', 'Memancing']
         },
         {
@@ -154,7 +154,7 @@
             location: 'Kelurahan Dauhwaru, Kecamatan Jembrana, Kabupaten Jembrana (pusat Kota Negara)',
             mapQuery: 'Pura Jagatnatha Jembrana Bali',
             description: 'Pura besar di pusat Kota Negara yang menjadi tempat persembahyangan umat Hindu sekaligus daya tarik wisata budaya dengan area taman dan kolam.',
-            image: '../assets/images/pura-jagatnatha.jpg',
+            image: 'assets/images/pura-jagatnatha.jpg',
             activities: ['Mengenal budaya dan arsitektur', 'Bersembahyang', 'Berfoto', 'Menikmati taman di sekitar pura']
         },
         {
@@ -164,7 +164,7 @@
             location: 'Dusun Sawe Rangsasa, Kelurahan Dauhwaru, Kecamatan Jembrana, Kabupaten Jembrana',
             mapQuery: 'Nirwana Garden Jembrana Bali',
             description: 'Taman wisata dengan lanskap perbukitan hijau dan hamparan sawah, menawarkan spot foto, taman bunga, dan suasana yang menenangkan.',
-            image: '../assets/images/nirwana-garden.jpg',
+            image: 'assets/images/nirwana-garden.jpg',
             activities: ['Menikmati taman bunga', 'Berfoto di spot instagramable', 'Bersantai menikmati pemandangan', 'Kuliner lokal']
         },
         {
@@ -174,31 +174,31 @@
             location: 'Jl. Raya Denpasar - Gilimanuk, Desa Pengeragoan, Kecamatan Pekutatan, Kabupaten Jembrana',
             mapQuery: 'Rest Area Pengeragoan Jembrana Bali',
             description: 'Area istirahat di jalur Denpasar-Gilimanuk dengan bangunan bergaya pendopo, tempat parkir luas, dan warung-warung kuliner lokal, cocok untuk melepas lelah saat melintasi Jembrana.',
-            image: '../assets/images/rest-area-jembrana.jpg',
+            image: 'assets/images/rest-area-jembrana.jpg',
             activities: ['Beristirahat', 'Kuliner lokal', 'Berfoto', 'Menikmati fasilitas rest area']
         }
     ];
 
     /* ===== GALLERY DATA ===== */
     const galleryItems = [
-        { id: 1, image: '../assets/images/pantai-medewi.jpg', category: 'nature', alt: 'Pantai Medewi' },
-        { id: 2, image: '../assets/images/pantai-yeh-leh.jpg', category: 'sunset', alt: 'Pantai Yeh Leh saat sunset' },
-        { id: 3, image: '../assets/images/bunut-bolong.jpg', category: 'nature', alt: 'Bunut Bolong' },
-        { id: 4, image: '../assets/images/pura-rambut-siwi.jpg', category: 'culture', alt: 'Pura Rambut Siwi' },
-        { id: 5, image: '../assets/images/makepung.jpg', category: 'people', alt: 'Tradisi Makepung' },
-        { id: 6, image: '../assets/images/teluk-gilimanuk.jpg', category: 'nature', alt: 'Teluk Gilimanuk' },
-        { id: 7, image: '../assets/images/desa-blimbingsari.jpg', category: 'culture', alt: 'Desa Blimbingsari' },
-        { id: 8, image: '../assets/images/desa-ekasari.jpg', category: 'people', alt: 'Desa Ekasari' },
-        { id: 9, image: '../assets/images/bendungan-palasari.jpg', category: 'nature', alt: 'Bendungan Palasari' },
-        { id: 10, image: '../assets/images/tenun-jembrana.jpg', category: 'culture', alt: 'Tenun Jembrana' },
+        { id: 1, image: 'assets/images/pantai-medewi.jpg', category: 'nature', alt: 'Pantai Medewi' },
+        { id: 2, image: 'assets/images/pantai-yeh-leh.jpg', category: 'sunset', alt: 'Pantai Yeh Leh saat sunset' },
+        { id: 3, image: 'assets/images/bunut-bolong.jpg', category: 'nature', alt: 'Bunut Bolong' },
+        { id: 4, image: 'assets/images/pura-rambut-siwi.jpg', category: 'culture', alt: 'Pura Rambut Siwi' },
+        { id: 5, image: 'assets/images/makepung.jpg', category: 'people', alt: 'Tradisi Makepung' },
+        { id: 6, image: 'assets/images/teluk-gilimanuk.jpg', category: 'nature', alt: 'Teluk Gilimanuk' },
+        { id: 7, image: 'assets/images/desa-blimbingsari.jpg', category: 'culture', alt: 'Desa Blimbingsari' },
+        { id: 8, image: 'assets/images/desa-ekasari.jpg', category: 'people', alt: 'Desa Ekasari' },
+        { id: 9, image: 'assets/images/bendungan-palasari.jpg', category: 'nature', alt: 'Bendungan Palasari' },
+        { id: 10, image: 'assets/images/tenun-jembrana.jpg', category: 'culture', alt: 'Tenun Jembrana' },
 
         /* ===== FOTO GALLERY BARU ===== */
-        { id: 11, image: '../assets/images/air-terjun-juwukmanis.jpg', category: 'nature', alt: 'Air Terjun Juwukmanis' },
-        { id: 12, image: '../assets/images/air-terjun-juwukmanis-2.jpg', category: 'nature', alt: 'Air Terjun Juwukmanis dari sudut lain' },
-        { id: 13, image: '../assets/images/puncak-mawar.jpg', category: 'nature', alt: 'Puncak Mawar' },
-        { id: 14, image: '../assets/images/bendungan-benel.jpg', category: 'nature', alt: 'Bendungan Benel' },
-        { id: 15, image: '../assets/images/pura-jagatnatha.jpg', category: 'culture', alt: 'Pura Jagatnatha Jembrana' },
-        { id: 16, image: '../assets/images/nirwana-garden.jpg', category: 'nature', alt: 'Nirwana Garden' }
+        { id: 11, image: 'assets/images/air-terjun-juwukmanis.jpg', category: 'nature', alt: 'Air Terjun Juwukmanis' },
+        { id: 12, image: 'assets/images/air-terjun-juwukmanis-2.jpg', category: 'nature', alt: 'Air Terjun Juwukmanis dari sudut lain' },
+        { id: 13, image: 'assets/images/puncak-mawar.jpg', category: 'nature', alt: 'Puncak Mawar' },
+        { id: 14, image: 'assets/images/bendungan-benel.jpg', category: 'nature', alt: 'Bendungan Benel' },
+        { id: 15, image: 'assets/images/pura-jagatnatha.jpg', category: 'culture', alt: 'Pura Jagatnatha Jembrana' },
+        { id: 16, image: 'assets/images/nirwana-garden.jpg', category: 'nature', alt: 'Nirwana Garden' }
     ];
 
     const FAVORITES_KEY = 'jembrana-favorites';

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jembrana Explore | Discover the Beauty of West Bali</title>
+    <meta name="description" content="Jelajahi destinasi wisata, budaya, tradisi, dan potensi lokal Kabupaten Jembrana, Bali.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jembrana Explore | Discover the Beauty of West Bali">
+    <meta property="og:description" content="Jelajahi destinasi wisata, budaya, tradisi, dan potensi lokal Kabupaten Jembrana, Bali.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/images/hero-jembrana.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23062C3A'/%3E%3Ccircle cx='50' cy='50' r='26' fill='%23C9A96E'/%3E%3C/svg%3E">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- ===== SKIP LINK (Accessibility) ===== -->
+    <a href="#main-content" class="skip-link">Langsung ke konten</a>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo" aria-label="Jembrana Explore - Home">
+                <img src="../assets/logos/logo-jembrana-explore.png" alt="" class="navbar-logo-mark" onerror="this.style.display='none'">
+                <span class="logo-text">JEMBRANA</span><span class="logo-explore">EXPLORE</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li class="nav-item"><a href="#map" class="nav-link">Map</a></li>
+                <li class="nav-item"><a href="#culture" class="nav-link">Culture</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            </ul>
+
+            <div class="partner-logos" aria-label="Program resmi">
+                <img src="../assets/logos/logo-dupes.png" alt="Duta Pesona Indonesia" class="partner-logo" loading="lazy">
+                <img src="../assets/logos/wonderful-indonesia.png" alt="Wonderful Indonesia" class="partner-logo" loading="lazy">
+            </div>
+
+            <div class="navbar-icons">
+                <button class="icon-btn" id="searchBtn" aria-label="Buka pencarian" aria-haspopup="dialog">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </button>
+                <button class="icon-btn" id="favoritesBtn" aria-label="Lihat destinasi favorit">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== SEARCH OVERLAY ===== -->
+    <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Pencarian destinasi">
+        <div class="search-panel">
+            <div class="search-box">
+                <i class="fas fa-search search-box-icon" aria-hidden="true"></i>
+                <input type="text" id="searchInput" placeholder="Cari destinasi, kategori, atau lokasi..." autocomplete="off">
+                <button id="closeSearch" class="close-search" aria-label="Tutup pencarian"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </div>
+
+    <main id="main-content">
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-media">
+            <img src="../assets/images/hero-jembrana.jpg" alt="Pemandangan alam Jembrana, Bali Barat" id="heroImage"
+                 onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/062C3A/F5F1E8?text=Jembrana'">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="official-logos" aria-label="Program resmi">
+                <img src="../assets/logos/logo-dupes.png" alt="Duta Pesona Indonesia" class="hero-logo" loading="lazy">
+                <img src="../assets/logos/wonderful-indonesia.png" alt="Wonderful Indonesia" class="hero-logo" loading="lazy">
+            </div>
+            <p class="hero-eyebrow">WEST BALI &middot; JEMBRANA</p>
+            <h1 class="hero-title">JEMBRANA EXPLORE</h1>
+            <p class="hero-tagline">Temukan Sisi Lain Bali.</p>
+            <p class="hero-description">Jelajahi pesona alam, budaya, tradisi, dan cerita lokal dari Kabupaten Jembrana.</p>
+
+            <a href="#destinations" class="btn btn-primary">EXPLORE JEMBRANA</a>
+        </div>
+
+        <a href="#intro" class="scroll-indicator" aria-label="Scroll ke bawah">
+            <span>SCROLL</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+        </a>
+    </section>
+
+    <!-- ===== INTRO SECTION ===== -->
+    <section class="intro-section" id="intro">
+        <div class="container intro-grid">
+            <div class="intro-image">
+                <img src="../assets/images/jembrana-landscape.jpg" alt="Lanskap alam Jembrana" loading="lazy"
+                     onerror="this.onerror=null;this.src='https://placehold.co/900x700/0E6B78/F5F1E8?text=Jembrana+Landscape'">
+            </div>
+            <div class="intro-text">
+                <p class="eyebrow">A DIFFERENT SIDE OF BALI</p>
+                <h2 class="section-title section-title-left">Ujung Barat yang Jarang Terlihat</h2>
+                <p>Di ujung barat Pulau Bali, Jembrana menawarkan pengalaman yang berbeda. Alam, pesisir, budaya, tradisi, dan kehidupan masyarakat menjadi bagian dari cerita yang membuat Jembrana layak untuk dijelajahi.</p>
+                <div class="intro-stats">
+                    <div class="intro-stat">
+                        <span class="intro-stat-number">10+</span>
+                        <span class="intro-stat-label">Destinasi</span>
+                    </div>
+                    <div class="intro-stat">
+                        <span class="intro-stat-number">3</span>
+                        <span class="intro-stat-label">Tradisi Khas</span>
+                    </div>
+                    <div class="intro-stat">
+                        <span class="intro-stat-number">7</span>
+                        <span class="intro-stat-label">Kategori Wisata</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DESTINATIONS SECTION ===== -->
+    <section class="destinations-section" id="destinations">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">DISCOVER</p>
+            <h2 class="section-title">Explore Jembrana</h2>
+            <p class="section-subtitle">Temukan destinasi yang menyimpan cerita dari ujung barat Pulau Bali.</p>
+
+            <div class="filter-buttons" role="tablist" aria-label="Filter kategori destinasi">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="pantai">PANTAI</button>
+                <button class="filter-btn" data-filter="alam">ALAM</button>
+                <button class="filter-btn" data-filter="bahari">BAHARI</button>
+                <button class="filter-btn" data-filter="budaya">BUDAYA</button>
+                <button class="filter-btn" data-filter="tradisi">TRADISI</button>
+                <button class="filter-btn" data-filter="desa-wisata">DESA WISATA</button>
+            </div>
+
+            <div class="destinations-grid" id="destinationsGrid" aria-live="polite"></div>
+
+            <div id="noResults" class="no-results" hidden>
+                <i class="fas fa-compass" aria-hidden="true"></i>
+                <p>Destinasi yang kamu cari belum ditemukan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">EXPLORE THE LOCATION</p>
+            <h2 class="section-title">Find Your Way to Jembrana</h2>
+            <p class="section-subtitle">Temukan lokasi destinasi pilihan dan rencanakan perjalananmu.</p>
+
+            <div class="map-grid">
+                <div class="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps?q=Kabupaten%20Jembrana%2C%20Bali&output=embed"
+                        title="Peta Kabupaten Jembrana, Bali"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="map-info">
+                    <span class="map-info-brand">JEMBRANA EXPLORE</span>
+                    <p class="map-info-tagline">Explore destinations across Jembrana, West Bali.</p>
+
+                    <ul class="map-destination-list" id="mapDestinationList" aria-label="Daftar lokasi destinasi"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CULTURE SECTION ===== -->
+    <section class="culture-section" id="culture">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">HERITAGE</p>
+            <h2 class="section-title">Culture &amp; Tradition</h2>
+            <p class="section-subtitle">Jembrana tidak hanya menawarkan tempat untuk dikunjungi, tetapi juga tradisi dan karya yang menjadi bagian dari identitas masyarakatnya.</p>
+
+            <div class="culture-grid">
+                <article class="culture-card">
+                    <div class="culture-image">
+                        <img src="../assets/images/makepung.jpg" alt="Makepung, tradisi balap kerbau Jembrana" loading="lazy">
+                    </div>
+                    <div class="culture-content">
+                        <span class="tag">Tradisi</span>
+                        <h3>Makepung</h3>
+                        <p>Tradisi balap kerbau khas Jembrana yang menjadi identitas budaya masyarakat, biasanya diadakan sebagai bentuk syukuran musim panen.</p>
+                    </div>
+                </article>
+
+                <article class="culture-card">
+                    <div class="culture-image">
+                        <img src="../assets/images/tenun-jembrana.jpg" alt="Kerajinan tenun khas Jembrana" loading="lazy">
+                    </div>
+                    <div class="culture-content">
+                        <span class="tag">Kerajinan</span>
+                        <h3>Tenun Jembrana</h3>
+                        <p>Kerajinan tenun tradisional dengan motif yang memiliki makna dan cerita tersendiri dari masyarakat Jembrana.</p>
+                    </div>
+                </article>
+
+                <article class="culture-card">
+                    <div class="culture-image">
+                        <img src="../assets/images/jegog.jpg" alt="Jegog, alat musik bambu khas Jembrana" loading="lazy"
+                             onerror="this.onerror=null;this.src='https://placehold.co/900x600/062C3A/F5F1E8?text=Jegog'">
+                    </div>
+                    <div class="culture-content">
+                        <span class="tag">Kesenian</span>
+                        <h3>Jegog</h3>
+                        <p>Alat musik bambu raksasa khas Jembrana dengan suara yang khas, dimainkan dalam pertunjukan seni turun-temurun.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STORIES SECTION ===== -->
+    <section class="stories-section" id="stories">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">STORIES</p>
+            <h2 class="section-title">Jembrana Stories</h2>
+            <p class="section-subtitle">Cerita-cerita menarik dari ujung barat Pulau Bali.</p>
+
+            <div class="stories-grid">
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="../assets/images/hero-jembrana.jpg" alt="Pemandangan alam Jembrana" loading="lazy"
+                             onerror="this.onerror=null;this.src='https://placehold.co/500x350/062C3A/F5F1E8?text=Jembrana'">
+                    </div>
+                    <div class="story-content">
+                        <span class="tag">Destinasi</span>
+                        <h3>Mengenal Jembrana dari Sisi yang Berbeda</h3>
+                        <p>Dengan alam yang masih asri, pantai yang eksotis, dan budaya yang kaya, Jembrana menawarkan pengalaman yang tak terlupakan.</p>
+                    </div>
+                </article>
+
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="../assets/images/makepung.jpg" alt="Tradisi Makepung" loading="lazy">
+                    </div>
+                    <div class="story-content">
+                        <span class="tag">Tradisi</span>
+                        <h3>Makepung: Tradisi yang Menjadi Identitas</h3>
+                        <p>Lebih dari sekadar perlombaan, Makepung adalah ekspresi budaya dan kebersamaan yang terus diwariskan turun-temurun.</p>
+                    </div>
+                </article>
+
+                <article class="story-card">
+                    <div class="story-image">
+                        <img src="../assets/images/sunset-jembrana.jpg" alt="Sunset di pesisir Jembrana" loading="lazy"
+                             onerror="this.onerror=null;this.src='https://placehold.co/500x350/0E6B78/F5F1E8?text=Jembrana+Sunset'">
+                    </div>
+                    <div class="story-content">
+                        <span class="tag">Pantai</span>
+                        <h3>Menikmati Pesona Pesisir Jembrana</h3>
+                        <p>Dari pantai berombak hingga sunset yang memukau, pesisir Jembrana menawarkan keindahan alam yang menakjubkan.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRAVEL GUIDE SECTION ===== -->
+    <section class="guide-section" id="guide">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">PLAN YOUR TRIP</p>
+            <h2 class="section-title">Plan Your Jembrana Journey</h2>
+            <p class="section-subtitle">Panduan singkat untuk perjalanan Anda ke Jembrana.</p>
+
+            <div class="guide-grid">
+                <div class="guide-card">
+                    <i class="far fa-calendar" aria-hidden="true"></i>
+                    <h3>Kapan Berkunjung</h3>
+                    <p>Musim kemarau (April&ndash;Oktober) adalah waktu terbaik untuk menikmati cuaca cerah dan ombak yang bersahabat.</p>
+                </div>
+                <div class="guide-card">
+                    <i class="fas fa-route" aria-hidden="true"></i>
+                    <h3>Cara Menuju</h3>
+                    <p>Dari Bandara Ngurah Rai, perjalanan ke Jembrana memakan waktu sekitar 3&ndash;4 jam dengan kendaraan pribadi.</p>
+                </div>
+                <div class="guide-card">
+                    <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+                    <h3>Etika Lokal</h3>
+                    <p>Hormati budaya lokal dengan berpakaian sopan di tempat ibadah dan menjaga kebersihan lingkungan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <p class="eyebrow eyebrow-center">VISUAL STORY</p>
+            <h2 class="section-title">Jembrana Gallery</h2>
+            <p class="section-subtitle">Koleksi visual dari ujung barat Pulau Bali.</p>
+
+            <div class="gallery-filters">
+                <button class="gallery-filter-btn active" data-filter="all">All</button>
+                <button class="gallery-filter-btn" data-filter="nature">Nature</button>
+                <button class="gallery-filter-btn" data-filter="culture">Culture</button>
+                <button class="gallery-filter-btn" data-filter="sunset">Sunset</button>
+                <button class="gallery-filter-btn" data-filter="people">People</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <p class="eyebrow eyebrow-center">THE IDEA</p>
+                <h2 class="section-title">About Jembrana Explore</h2>
+
+                <div class="about-text">
+                    <p>Jembrana Explore merupakan inisiatif digital untuk memperkenalkan potensi pariwisata Kabupaten Jembrana, Provinsi Bali, melalui media digital.</p>
+
+                    <div class="program-identity">
+                        <div class="program-logos">
+                            <img src="../assets/logos/logo-dupes.png" alt="Duta Pesona Indonesia" loading="lazy">
+                            <img src="../assets/logos/wonderful-indonesia.png" alt="Wonderful Indonesia" loading="lazy">
+                        </div>
+                        <p class="about-program">Program Kerja Mandiri<br>Duta Pesona Indonesia Batch 7 &mdash; 2026</p>
+                    </div>
+                </div>
+
+                <div class="creator-card">
+                    <p class="eyebrow">CREATED BY</p>
+                    <h3>Ni Putu Eni Pebry Yanti</h3>
+                    <p class="creator-role">Duta Pesona Indonesia Batch 7 &mdash; 2026</p>
+                    <a href="https://instagram.com/enipebryyanti_" target="_blank" rel="noopener noreferrer" class="creator-social">
+                        <i class="fab fa-instagram" aria-hidden="true"></i> @enipebryyanti_
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- ===== FAVORITES MODAL ===== -->
+    <div class="modal" id="favoritesModal" role="dialog" aria-modal="true" aria-labelledby="favoritesModalTitle" hidden>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="favoritesModalTitle">My Favorites</h2>
+                <button class="close-modal" id="closeFavoritesModal" aria-label="Tutup">&times;</button>
+            </div>
+            <div class="modal-body" id="favoritesList"></div>
+        </div>
+    </div>
+
+    <!-- ===== DETAIL MODAL ===== -->
+    <div class="modal" id="detailModal" role="dialog" aria-modal="true" aria-label="Detail destinasi" hidden>
+        <div class="modal-content modal-lg">
+            <button class="close-modal close-modal-floating" id="closeDetailModal" aria-label="Tutup">&times;</button>
+            <div class="modal-body" id="detailContent"></div>
+        </div>
+    </div>
+
+    <!-- ===== LIGHTBOX ===== -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau gambar" hidden>
+        <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">&times;</button>
+        <img src="" alt="" id="lightboxImage">
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <span class="footer-logo">JEMBRANA <em>EXPLORE</em></span>
+                    <p>Discover the Beauty of West Bali</p>
+                    <p class="footer-tagline">An initiative to introduce Jembrana through digital storytelling.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#culture">Culture</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="https://instagram.com/enipebryyanti_" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-instagram" aria-hidden="true"></i> @enipebryyanti_
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-official">
+                <span class="footer-official-label">Official Program Identity</span>
+                <div class="footer-official-logos">
+                    <img src="../assets/logos/logo-dupes.png" alt="Duta Pesona Indonesia" loading="lazy">
+                    <img src="../assets/logos/wonderful-indonesia.png" alt="Wonderful Indonesia" loading="lazy">
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jembrana Explore. An initiative to introduce Jembrana through digital storytelling.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
